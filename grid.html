@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .box{
+            display: grid;
+            grid-template-columns: 40% 30% 30%;
+            grid-gap: 2rem;
+        }
+        .box >div{
+            background: #ff88;
+            padding: 1rem;
+        }
+        .box >div :nth-child(){
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quibusdam maiores doloribus ab ducimus sapiente reiciendis a nemo libero cupiditate? Error 
+            veniam libero in mollitia fuga non asperiores temporibus ducimus.</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consectetur totam, hic quas nesciunt voluptas, repellendus ullam atque numquam amet 
+        dolorum illo dicta. Quis officiis temporibus fuga, ipsum tempore inventore?</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quibusdam maiores doloribus ab ducimus sapiente reiciendis a nemo libero cupiditate? Error 
+            veniam libero in mollitia fuga non asperiores temporibus ducimus.</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consectetur totam, hic quas nesciunt voluptas, repellendus ullam atque numquam amet 
+        dolorum illo dicta. Quis officiis temporibus fuga, ipsum tempore inventore?</div>
+    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem adipisci doloribus ullam iusto facere reprehenderit ab fugit ex, 
+        nostrum similique distinctio quis consequuntur aut harum quidem delectus iste dolorem.</div>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit omnis distinctio qui nesciunt odit doloremque, tempora eius debitis 
+            quidem error aliquam in eos quos quasi a earum temporibus velit sequi!</div>    
+    </div>
+</body>
+</html>
